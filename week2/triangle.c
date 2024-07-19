@@ -16,7 +16,11 @@ void printOutAreaOfTriangle(double b, double h, double a) {
     printf("\t\t---------------------------\n");
 }
 
-int main(void) {
-    printOutAreaOfTriangle(2, 5, triangleArea(2, 5));
-    return 0;
-}
+// int main(void) {
+//     printOutAreaOfTriangle(2, 5, triangleArea(2, 5));
+//     return 0;
+// }
+
+
+
+
