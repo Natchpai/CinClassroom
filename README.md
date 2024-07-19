@@ -30,7 +30,7 @@ Simple syntax, Defining type of variables and Draw the flowchart in MS-Word? 눈
 
 ## Independent Study
 
-### Files
+### Files in 📂EXAMPLE
 - `function.c`
 - `variable.c`
 
