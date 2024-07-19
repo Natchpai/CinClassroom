@@ -13,6 +13,7 @@ This repository contains C programming codes from my classroom lessons, organize
 ## Week 1
 
 In first week, Him teaches me about installation of VSCode and simple syntax of C.
+" สอนลงโปรแกรม VSCode , ลง Compiler , Syntax แบบง่ายๆ. "
 
 ### Files
 - `hi.c`
