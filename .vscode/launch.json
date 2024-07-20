@@ -1,6 +1,8 @@
 {
   "version": "0.2.0",
   "configurations": [
+
+
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +10,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/AORUS/Documents/CODING/C/TEE2PA67",
-      "program": "c:/Users/AORUS/Documents/CODING/C/TEE2PA67/build/Debug/outDebug",
+      "cwd": "c:/CODING/C/TEE2PA67/EXAMPLE",
+      "program": "c:/CODING/C/TEE2PA67/EXAMPLE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
