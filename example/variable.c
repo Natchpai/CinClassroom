@@ -4,17 +4,16 @@
 #include <math.h>
 
 // global variable
-double PI = 3.141592653;
 int a = 10;
 
 void function_1() {
     // local variable
     int a = 58;
-    printf("%d", a);
+    printf("%d \n", a);
 }
 
 void function_2() {
-    printf("%d", a);
+    printf("%d \n", a);
 }
 
 int main() {
