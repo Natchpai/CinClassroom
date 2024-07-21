@@ -1,5 +1,5 @@
+#include "boolean.h"
 #include <stdbool.h>
-#include <stdio.h>
 
 bool a = true;
 
@@ -11,6 +11,6 @@ bool funcOdd(int x) {
     return ((x % 2) == 1) ? true : false;
 }
 
-int main(void) {
-    printf("%d", funcEven(16));
-}
+// int main(void) {
+//     printf("%d", funcEven(16));
+// }
