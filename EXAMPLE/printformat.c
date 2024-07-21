@@ -58,6 +58,9 @@ int main() {
     intFormat();
     floatFormat();
     charFormat();
+
+    printf("How to print %c \n", '%');
+    printf("How to print %% \n");
     // strFormat();
     // address();
 }
