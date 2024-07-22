@@ -21,13 +21,14 @@ int main() {
     double d, t, v;
 
     printFormat();
-    printf(" Distance (m) = ");
+    printf("  Distance (m) = ");
     scanf("%lf", &d);
 
-    printf("     Time (s) = ");
+    printf("      Time (s) = ");
     scanf("%lf", &t);
 
     v = velocityCal(d, t);
-    printf("  Velocity (m/s) = %.2f", v);
+    printf("Velocity (m/s) = %.2f \n", v);
+    printf("------------------------------\n");
 
 }
