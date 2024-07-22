@@ -28,7 +28,7 @@ int main() {
     scanf("%lf", &t);
 
     v = velocityCal(d, t);
-    printf("Velocity (m/s) = %.2f \n", v);
+    printf("Velocity (m/s) = %.2lf \n", v);
     printf("------------------------------\n");
 
 }
