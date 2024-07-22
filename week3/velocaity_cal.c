@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define _USE_MATH_DEFINES
+#include <math.h>
+
 double velocityCal(double d, double t) {
-    return d / t;
+    return d * 2 * M_PI / t;
 }
 
 void printFormat() {
