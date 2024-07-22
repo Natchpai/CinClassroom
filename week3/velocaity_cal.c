@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 double velocityCal(double d, double t) {
     return d / t;
@@ -17,6 +17,8 @@ void printFormat() {
 
 
 int main() {
+
+    system("cls");
 
     double d, t, v;
 
