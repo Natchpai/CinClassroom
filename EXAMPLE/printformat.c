@@ -13,6 +13,26 @@ void intFormat() {
 
 // floating point
 void floatFormat() {
+
+    /*
+    * Length-modifiers
+    *   %f for float
+    *   %lf for double
+    *   %Lf for long double
+
+    *     It just so happens that when arguments of type float are passed as variadic parameters,
+    * such arguments are implicitly converted to type double.
+    * This is the reason why in printf format specifiers %f and %lf are equivalent and interchangeable.
+    * In printf you can "cross-use" %lf with float or %f with double.
+    *     But there's no reason to actually do it in practice.
+    * Don't use %f to printf arguments of type double.
+    * It is a widespread habit born back in C89/90 times, but it is a bad habit.
+    * Use %lf in printf for double and keep %f reserved for float arguments.
+
+    https://stackoverflow.com/questions/210590/why-does-scanf-need-lf-for-doubles-when-printf-is-okay-with-just-f
+
+    */
+
     double e = 2.71828;
 
     printf("e = %f \n", e);
