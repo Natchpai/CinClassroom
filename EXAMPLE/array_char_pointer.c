@@ -2,7 +2,7 @@
 #include <string.h>
 
 void demo() {
-    char flower[] = "tulip"; // flower is a pointer to char
+    char flower[] = "tulip"; // flower is a pointer to array char
     printf("flower (address: %p) \n", flower);
 
     flower[0] = 'T';
