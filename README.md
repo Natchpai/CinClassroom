@@ -28,13 +28,29 @@ Simple syntax, Defining type of variables and Draw the flowchart in MS-Word? 눈
 - `Rt-Series-cal.c`
 - `TEST.c`
 
+## Week 3
+
+Simple syntax, scanf()
+
+### Files
+- `cir.c`
+- `velocity_cal.c`
+
+
 ## Independent Study
 
 ### Files in 📂EXAMPLE 
-- `function.c`
+- `structure.c`
+- `pointer_func_arg.c`
+- `pointer_array.c`
+- `fn_return_n-value.c`
 - `variable.c`
+and other
 
 ### Files in 📂Algorithm
+- `Babylonian-Medthod.c`
+- `Euclidean-Algorithm.c`
+- `QuagraticSol.c`
 
 ## How to Compile and Run
 
