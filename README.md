@@ -8,6 +8,7 @@ This repository contains C programming codes from my classroom lessons, organize
 
 - [Week 1](#week-1)
 - [Week 2](#week-2)
+- [Week 3](#week-3)
 - [Independent Study](#independent-study)
 
 ## Week 1
