@@ -30,9 +30,11 @@ Simple syntax, Defining type of variables and Draw the flowchart in MS-Word? 눈
 
 ## Independent Study
 
-### Files in 📂EXAMPLE
+### Files in 📂EXAMPLE 
 - `function.c`
 - `variable.c`
+
+### Files in 📂Algorithm
 
 ## How to Compile and Run
 
