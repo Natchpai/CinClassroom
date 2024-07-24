@@ -35,9 +35,9 @@ void floatFormat() {
 
     double e = 2.71828;
 
-    printf("e = %f \n", e);
-    printf("e = %.3f \n", e);
-    printf("e = %10.2f \n", e);
+    printf("e = %lf \n", e);
+    printf("e = %.3lf \n", e);
+    printf("e = %10.2lf \n", e);
 }
 
 // character
