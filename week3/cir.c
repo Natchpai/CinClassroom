@@ -16,7 +16,6 @@ void printFormat() {
     printf("------------------------\n");
 }
 
-
 int main() {
 
     // system("cls");
