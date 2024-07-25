@@ -37,6 +37,8 @@ Simple syntax, scanf()
 - `cir.c`
 - `velocity_cal.c`
 
+## Week 4
+
 
 ## Independent Study
 
@@ -49,7 +51,7 @@ Simple syntax, scanf()
 and other
 
 ### Files in 📂Algorithm
-- `Babylonian-Medthod.c`
+- `Babylonian-Medthod.c` (Editing)
 - `Euclidean-Algorithm.c`
 - `QuagraticSol.c`
 
