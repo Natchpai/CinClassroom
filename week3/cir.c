@@ -19,7 +19,7 @@ void printFormat() {
 
 int main() {
 
-    system("cls");
+    // system("cls");
 
     double r, Area;
 
