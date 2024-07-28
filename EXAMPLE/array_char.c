@@ -15,15 +15,15 @@ void demo2() {
 }
 
 void demo3() {
-    // The name of (array of character) is an address
+    ///! The name of array is a pointer to the address of first char.
     char grade[] = {'A', 'B', 'C', 'D'};
     printf("%s \n", grade);
 
     char grade2[] = {'A', 'B', 'C', 'D', '\0'};
     printf("%s \n", grade2);
 
-    char letter[] = "ABCD";
-    printf("%s \n", letter);
+    char letter[] = "ABCD"; // A, B, C, D,\0    and letter is a pointer to the first character , is A
+    printf("%s \n", letter); // %s
 
 }
 
