@@ -15,6 +15,7 @@ void demo2() {
 }
 
 void demo3() {
+    // The name of (array of character) is an address
     char grade[] = {'A', 'B', 'C', 'D'};
     printf("%s \n", grade);
 
