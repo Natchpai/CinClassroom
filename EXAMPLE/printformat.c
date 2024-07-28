@@ -51,10 +51,13 @@ void charFormat() {
 
 }
 
-// string
+// string %s จะหยุดพิมพ์เมื่อเจอ \0 โดยรับค่า Address or pointer to char
 void strFormat() {
-    char *str1 = "Python";
+    char *str1 = "Python"; // P, y, t, h, o, n, \0
+    //! str1 is a pointer to the first character of array , is P
+
     printf("|%s| \n", str1);
+    //! %s will stop printing when it encounters \0.
     printf("|%10s| \n", str1);
     printf("|%-10s| \n", str1);
 }
