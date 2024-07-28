@@ -35,12 +35,12 @@ int main() {
     printf("%s \n", flower);
 
     printf("%d \n", strLength(flower));
-   // The name of pointer is an address
+    //! The name of array is a pointer to the address of first char.
     char *flower2 = "jasmine"; // is constant , can't edit value but can change address
 
     printf("%d \n", strLength(flower2));
     printf("%s (%p)\n", flower2, flower2);
-    // The name of pointer is an address
+
 
     flower2 = "Rose";
     //? flower2 changes the address, from address is point to "illy" to address is point to "Rose"
