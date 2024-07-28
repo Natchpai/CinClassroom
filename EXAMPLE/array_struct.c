@@ -6,6 +6,11 @@ typedef struct{
 } Person;
 
 int main() {
+    // Person p[5];
+    // p[0].h = 149;
+    // p[0].w = 48;
+    // p[0].name = "Ui";
+    // p[0].gender = 'F';
 
     Person p[] = {
         //w , h, age
