@@ -24,7 +24,14 @@ void display3(char *s[], char **t) { // char **t is a pointer to character point
 }
 
 
-void display2(char *s[], size_t size) {
+void display2(char **s, size_t size) {
+    for (int i = 0; i < size; i++)
+    {
+        printf("%s \n", *(s + i));
+    }
+}
+// same
+void display2v2(char *s[], size_t size) {
     for (int i = 0; i < size; i++)
     {
         printf("%s \n", s[i]);
@@ -36,10 +43,12 @@ void demo1() {
     char *flower[] = {"carnation", "rose", "tulip"};
     // display1(flower);
 
-    // size_t size = sizeof(flower) / sizeof(flower[0]);
-    // display2(flower, size);
+    size_t size = sizeof(flower) / sizeof(flower[0]);
 
-    display3(flower, flower);
+
+    display2(flower, size);
+    display2v2(flower, size);
+    // display3(flower, flower);
 
 }
 
