@@ -2,8 +2,10 @@
 #include <string.h>
 
 void demo() {
-    char flower[] = "tulip"; // flower is a pointer to array char
-    printf("flower (address: %p) \n", flower); // The name of array is a address
+
+    // The name of (array of character) is an address
+    char flower[] = "tulip"; // flower is a pointer to array of character
+    printf("flower (address: %p) \n", flower); // The name of (array of character) is an address
     //! flower = "rose"; BC the name of array is store the address.
     //* flower[0] = 'T';
 
@@ -15,7 +17,7 @@ void demo() {
         printf("flower[%d] = %c (address: %p) \n", i, flower[i], &flower[i]);
 
     }
-
+    // The name of pointer is an address
     char *planet = "Mercury"; // constant, planet is a pointer to char
     printf("%s (addr: %p) \n", planet, planet);
     //! *planet = 'm'; is unpredictable behavior
