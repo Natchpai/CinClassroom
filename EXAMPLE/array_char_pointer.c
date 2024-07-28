@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // strlen()
 
 void demo() {
 
-    // The name of (array of character) is an address
+    //! The name of array is a pointer to the address of first char.
     char flower[] = "tulip"; // flower is a pointer to array of character
-    printf("flower (address: %p) \n", flower); // The name of (array of character) is an address
-    //! flower = "rose"; BC the name of array is store the address.
+    printf("flower (address: %p) \n", flower);
+    //! flower = "rose";
     //* flower[0] = 'T';
 
     flower[0] = 'T';
