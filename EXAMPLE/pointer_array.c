@@ -18,7 +18,7 @@ void demo1() {
 }
 
 void demo2() {
-    char *s[] = {"lily", "rose", "tulip"};
+    char *s[] = {"lily", "rose", "tulip"}; // array store a pointer to character
     for (size_t i = 0; i < 3; i++)
     {
         printf("%s (%p)\n", s[i], s[i]); // via address to format specifiers (%s) to string
