@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 
+
+
 //! ไม่ส่งค่าออก  ไม่รับค่าเข้า
 void pf123(void) {
     printf("--------------------------------- \n");
@@ -29,7 +31,7 @@ int demo2(int a) {
 
 
 //! ไม่ส่งค่าออก  รับค่าเข้า
-void display(double volume, double area) {
+fdisplay(double volume, double area) {
     printf("   Volume (m^3) = %.2lf \n", volume);
     printf("   Volume (m^3) = %.2lf \n", area);
     area = volume / 2;
@@ -50,8 +52,6 @@ int AplusB_v2(int a, int b) {
 
 int main(void) {
     int a = 40; int b = 18;
-    int result;
-
 
     printf("%d", AplusB_v2(a, b));
 
