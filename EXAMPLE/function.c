@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 
-
-
 //! ไม่ส่งค่าออก  ไม่รับค่าเข้า
 void pf123(void) {
     printf("--------------------------------- \n");
@@ -16,8 +14,6 @@ void pf123(void) {
 }
 
 
-
-
 //! ส่งค่าออก  ไม่รับค่าเข้า
 int demo(void) {
 }
@@ -25,10 +21,6 @@ int demo(void) {
 //! ส่งค่าออก  รับค่าเข้า
 int demo2(int a) {
 }
-
-
-
-
 
 //! ไม่ส่งค่าออก  รับค่าเข้า
 fdisplay(double volume, double area) {
